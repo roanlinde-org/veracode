@@ -32,6 +32,7 @@ veracode_static_scan:
   policy: 'Veracode Recommended Medium + SCA'
   compile_locally: false
   local_compilation_workflow: na
+  create_issue: true
   create_code_scanning_alert: true
 
 veracode_sca_scan:   
